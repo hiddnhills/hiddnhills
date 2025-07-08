@@ -2,10 +2,6 @@
 
 > Underground Hip-Hop Visionary • Las Vegas
 
-## Overview
-
-Professional Electronic Press Kit (EPK) for HIDDNHILLS - an underground hip-hop artist from Las Vegas. This modern, responsive website showcases music, visuals, biography, and press materials.
-
 ## Features
 
 - 🎵 **Music Integration**: Spotify & Apple Music streaming
