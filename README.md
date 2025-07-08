@@ -1,5 +1,4 @@
-# HIDDNHILLS - Electronic Press Kit
-
+# HIDDNHILLS - Art over Ego
 > Underground Hip-Hop Visionary • Las Vegas
 
 ## Features
