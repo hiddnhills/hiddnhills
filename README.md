@@ -44,4 +44,4 @@
 
 ---
 
-_Underground Visionary • Electronic Press Kit_
+_Underground Visionary • Art over Ego
