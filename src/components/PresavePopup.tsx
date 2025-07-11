@@ -29,9 +29,9 @@ export const PresavePopup: React.FC<PresavePopupProps> = ({
   const [open, setOpen] = useState(false);
   const [hasShown, setHasShown] = useState(false);
 
-  // Check localStorage on mount to prevent repeated auto-shows
+  // Check localStorage on mount to prevent repeated auto-shows in the same session
   useEffect(() => {
-    const hasSeenPopup = localStorage.getItem("presave-popup-shown");
+    const hasSeenPopup = sessionStorage.getItem("presave-popup-shown");
     if (hasSeenPopup) {
       setHasShown(true);
     }
@@ -42,8 +42,8 @@ export const PresavePopup: React.FC<PresavePopupProps> = ({
     onOpenChange?.(newOpen);
     if (newOpen) {
       setHasShown(true);
-      // Remember that user has seen the popup
-      localStorage.setItem("presave-popup-shown", "true");
+      // Remember that user has seen the popup for this session
+      sessionStorage.setItem("presave-popup-shown", "true");
     }
   };
 
@@ -53,7 +53,7 @@ export const PresavePopup: React.FC<PresavePopupProps> = ({
         if (!hasShown) {
           setOpen(true);
           setHasShown(true);
-          localStorage.setItem("presave-popup-shown", "true");
+          sessionStorage.setItem("presave-popup-shown", "true");
         }
       }, delay);
 
