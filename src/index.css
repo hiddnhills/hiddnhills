@@ -96,12 +96,12 @@ a:focus-visible {
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 0 0% 25%;
-    --sidebar-primary: 51 100% 50%;
+    --sidebar-primary: 0 0% 75%;
     --sidebar-primary-foreground: 0 0% 5%;
     --sidebar-accent: 0 0% 96%;
     --sidebar-accent-foreground: 0 0% 25%;
     --sidebar-border: 0 0% 90%;
-    --sidebar-ring: 51 100% 50%;
+    --sidebar-ring: 0 0% 75%;
   }
 
   .dark {
