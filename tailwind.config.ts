@@ -139,26 +139,24 @@ export default {
           espresso: "#734B34",
         },
 
-        // Minimal gold usage - only for rare accents
+        // Elegant luxury colors - pure silver and white palette
         luxury: {
           silver: "#C0C0C0",
           platinum: "#E5E4E2",
-          champagne: "#F7E7CE",
           pearl: "#EAE0C8",
-          cream: "#FFFDD0",
-          // Gold only for very rare occasions
-          gold: "#D4AF37", // More muted than pure gold
+          cream: "#F5F5F5",
+          white: "#FFFFFF",
+          light: "#D3D3D3", // Light silver
         },
 
-        // Elegant accent colors - mostly silvers and whites
+        // Elegant accent colors - silvers and whites only
         accent: {
           silver: "#C0C0C0",
           platinum: "#E5E4E2",
           pearl: "#EAE0C8",
-          cream: "#FFFDD0",
-          champagne: "#F7E7CE",
-          // Minimal gold usage
-          subtle: "#E8D5B7", // Very muted gold-ish
+          cream: "#F5F5F5",
+          white: "#FFFFFF",
+          subtle: "#D3D3D3", // Light silver
         },
       },
       fontFamily: {
