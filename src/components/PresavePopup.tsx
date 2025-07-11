@@ -68,11 +68,11 @@ export const PresavePopup: React.FC<PresavePopupProps> = ({
           />
         </div>
 
-        <DialogTitle className="text-xl font-medium tracking-wide text-white font-['Montserrat'] uppercase">
+        <DialogTitle className="text-xl font-medium tracking-wide text-white font-['Montserrat'] uppercase text-center">
           "Be Like You"
         </DialogTitle>
 
-        <DialogDescription className="text-white/80 text-sm font-['Montserrat']">
+        <DialogDescription className="text-white/80 text-sm font-['Montserrat'] text-center">
           New track from HIDDNHILLS
         </DialogDescription>
       </DialogHeader>
@@ -82,7 +82,7 @@ export const PresavePopup: React.FC<PresavePopupProps> = ({
           onClick={handlePresaveClick}
           className="w-full bg-white/20 text-white font-['Montserrat'] font-medium py-3 px-6 rounded-md hover:bg-white/30 transition-colors duration-300 uppercase text-sm tracking-wide"
         >
-          Presave Now
+          Presave New Music
         </Button>
 
         <DialogClose asChild>
