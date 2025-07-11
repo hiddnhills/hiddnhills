@@ -42,8 +42,8 @@ export const PresavePopup: React.FC<PresavePopupProps> = ({
     onOpenChange?.(newOpen);
     if (newOpen) {
       setHasShown(true);
-      // Remember that user has seen the popup
-      localStorage.setItem("presave-popup-shown", "true");
+      // Remember that user has seen the popup for this session
+      sessionStorage.setItem("presave-popup-shown", "true");
     }
   };
 
