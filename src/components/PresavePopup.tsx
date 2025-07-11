@@ -29,9 +29,9 @@ export const PresavePopup: React.FC<PresavePopupProps> = ({
   const [open, setOpen] = useState(false);
   const [hasShown, setHasShown] = useState(false);
 
-  // Check localStorage on mount to prevent repeated auto-shows
+  // Check localStorage on mount to prevent repeated auto-shows in the same session
   useEffect(() => {
-    const hasSeenPopup = localStorage.getItem("presave-popup-shown");
+    const hasSeenPopup = sessionStorage.getItem("presave-popup-shown");
     if (hasSeenPopup) {
       setHasShown(true);
     }
