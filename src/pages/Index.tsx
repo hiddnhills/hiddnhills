@@ -51,6 +51,8 @@ const rightMarqueeItems = [
 ];
 
 const Index = () => {
+  const [presavePopupOpen, setPresavePopupOpen] = useState(false);
+
   return (
     <PageLayout
       leftMarqueeItems={leftMarqueeItems}
