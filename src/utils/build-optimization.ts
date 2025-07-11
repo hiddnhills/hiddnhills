@@ -127,6 +127,7 @@ function setupResourceHints(): void {
     { href: "https://fonts.gstatic.com", rel: "dns-prefetch" },
     { href: "https://open.spotify.com", rel: "dns-prefetch" },
     { href: "https://music.apple.com", rel: "dns-prefetch" },
+    { href: "https://distrokid.com", rel: "dns-prefetch" },
   ];
 
   resourceHints.forEach(({ href, rel }) => {
