@@ -9,7 +9,7 @@ import {
   DialogClose,
 } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
-import { ExternalLink, Music, X } from "lucide-react";
+import { Music } from "lucide-react";
 
 interface PresavePopupProps {
   isOpen?: boolean;
