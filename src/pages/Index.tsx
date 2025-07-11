@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { PageLayout } from "@/components/PageLayout";
 import { LoopingNavigationButtons } from "@/components/LoopingNavigationButtons";
+import { PresavePopup } from "@/components/PresavePopup";
+import { Button } from "@/components/ui/button";
+import { Music } from "lucide-react";
 
 // Slot machine alternatives for each button
 const slotMachineOptions = {
@@ -10,6 +13,14 @@ const slotMachineOptions = {
   press: ["PRESS", "MEDIA", "NEWS", "COVERAGE", "ARTICLES", "FEATURES"],
   contact: ["CONTACT", "REACH", "EMAIL", "BOOKING", "INQUIRIES", "CONNECT"],
   links: ["LINKS", "SOCIALS", "CONNECT", "FOLLOW", "CONTACT", "REACH"],
+  newMusic: [
+    "NEW MUSIC",
+    "NEW TRACK",
+    "PRESAVE",
+    "BE LIKE YOU",
+    "LATEST",
+    "FRESH",
+  ],
 };
 
 // Vertical marquee content
@@ -40,6 +51,8 @@ const rightMarqueeItems = [
 ];
 
 const Index = () => {
+  const [presavePopupOpen, setPresavePopupOpen] = useState(false);
+
   return (
     <PageLayout
       leftMarqueeItems={leftMarqueeItems}
@@ -71,6 +84,20 @@ const Index = () => {
               <LoopingNavigationButtons
                 slotMachineOptions={slotMachineOptions}
               />
+
+              {/* Presave Button */}
+              <div className="mt-6 pt-4 border-t border-white/10">
+                <Button
+                  onClick={() => setPresavePopupOpen(true)}
+                  className="w-full bg-white/20 text-white font-['Montserrat'] font-medium hover:bg-white/30 active:bg-white/40 transition-colors duration-300 uppercase text-sm tracking-wide rounded-md min-h-[48px] touch-manipulation"
+                  size="sm"
+                  type="button"
+                  aria-label="Open presave popup for new music"
+                >
+                  <Music className="w-4 h-4 mr-2" />
+                  Presave New Music
+                </Button>
+              </div>
             </div>
           </div>
         </section>
@@ -82,6 +109,14 @@ const Index = () => {
           </div>
         </div>
       </div>
+
+      {/* Presave Popup - Auto-shows after 5 seconds and manual trigger */}
+      <PresavePopup
+        autoShow={true}
+        delay={5000}
+        isOpen={presavePopupOpen}
+        onOpenChange={setPresavePopupOpen}
+      />
     </PageLayout>
   );
 };

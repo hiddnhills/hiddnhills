@@ -60,7 +60,7 @@ a:focus-visible {
 
 @layer base {
   /**
-   * Sophisticated Black, White, Gold & Velvet CSS Variables
+   * Sophisticated Black, White & Silver CSS Variables
    * Elegant, high-contrast palette with luxurious accents
   */
   :root {
@@ -73,7 +73,7 @@ a:focus-visible {
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 5%;
 
-    --primary: 51 100% 50%;
+    --primary: 0 0% 75%;
     --primary-foreground: 0 0% 5%;
 
     --secondary: 28 32% 63%;
@@ -82,7 +82,7 @@ a:focus-visible {
     --muted: 0 0% 96%;
     --muted-foreground: 0 0% 45%;
 
-    --accent: 51 100% 50%;
+    --accent: 0 0% 75%;
     --accent-foreground: 0 0% 5%;
 
     --destructive: 0 84% 60%;
@@ -90,18 +90,18 @@ a:focus-visible {
 
     --border: 0 0% 90%;
     --input: 0 0% 90%;
-    --ring: 51 100% 50%;
+    --ring: 0 0% 75%;
 
     --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 0 0% 25%;
-    --sidebar-primary: 51 100% 50%;
+    --sidebar-primary: 0 0% 75%;
     --sidebar-primary-foreground: 0 0% 5%;
     --sidebar-accent: 0 0% 96%;
     --sidebar-accent-foreground: 0 0% 25%;
     --sidebar-border: 0 0% 90%;
-    --sidebar-ring: 51 100% 50%;
+    --sidebar-ring: 0 0% 75%;
   }
 
   .dark {
@@ -114,7 +114,7 @@ a:focus-visible {
     --popover: 0 0% 5%;
     --popover-foreground: 0 0% 95%;
 
-    --primary: 51 100% 50%;
+    --primary: 0 0% 75%;
     --primary-foreground: 0 0% 5%;
 
     --secondary: 28 32% 25%;
@@ -123,7 +123,7 @@ a:focus-visible {
     --muted: 0 0% 15%;
     --muted-foreground: 0 0% 65%;
 
-    --accent: 51 100% 50%;
+    --accent: 0 0% 75%;
     --accent-foreground: 0 0% 5%;
 
     --destructive: 0 62% 30%;
@@ -131,15 +131,15 @@ a:focus-visible {
 
     --border: 0 0% 20%;
     --input: 0 0% 20%;
-    --ring: 51 100% 50%;
+    --ring: 0 0% 75%;
     --sidebar-background: 0 0% 8%;
     --sidebar-foreground: 0 0% 75%;
-    --sidebar-primary: 51 100% 50%;
+    --sidebar-primary: 0 0% 75%;
     --sidebar-primary-foreground: 0 0% 5%;
     --sidebar-accent: 0 0% 15%;
     --sidebar-accent-foreground: 0 0% 75%;
     --sidebar-border: 0 0% 20%;
-    --sidebar-ring: 51 100% 50%;
+    --sidebar-ring: 0 0% 75%;
   }
 }
 
@@ -256,21 +256,21 @@ a:focus-visible {
 
 @layer components {
   .elegant-text {
-    @apply text-gold-pure;
+    @apply text-white;
     text-shadow: 0 0 10px currentColor;
   }
 
-  .gold-shimmer {
-    @apply animate-gold-shimmer;
+  .silver-shimmer {
+    @apply animate-subtle-shimmer;
     text-shadow:
-      0 0 5px #ffd700,
-      0 0 10px #ffd700,
-      0 0 15px #ffd700,
-      0 0 20px #ffd700;
+      0 0 5px #c0c0c0,
+      0 0 10px #c0c0c0,
+      0 0 15px #c0c0c0,
+      0 0 20px #c0c0c0;
   }
 
   .basquiat-text {
-    @apply font-graffiti text-gold-pure;
+    @apply font-graffiti text-white;
     text-shadow:
       2px 2px 0px #000000,
       4px 4px 0px #bf754b,
@@ -321,7 +321,7 @@ a:focus-visible {
 
   /* Elegant pop art color variations */
   .pop-variant-1 {
-    background: linear-gradient(45deg, #ffd700, #d4af37);
+    background: linear-gradient(45deg, #c0c0c0, #e5e4e2);
     color: #000000;
   }
 
@@ -337,7 +337,7 @@ a:focus-visible {
 
   .pop-variant-4 {
     background: linear-gradient(45deg, #734434, #732f17);
-    color: #ffd700;
+    color: #c0c0c0;
   }
 
   /* Luxury screen printing effect */
@@ -373,14 +373,14 @@ a:focus-visible {
 
   /* Luxury container styling */
   .luxury-container {
-    border: 3px solid #ffd700;
+    border: 3px solid #c0c0c0;
     border-radius: 8px;
     background: linear-gradient(
       to bottom,
       #ffffff 0%,
       #ffffff 30%,
-      #ffd700 30%,
-      #ffd700 70%,
+      #c0c0c0 30%,
+      #c0c0c0 70%,
       #000000 70%,
       #000000 100%
     );
@@ -398,13 +398,13 @@ a:focus-visible {
     left: 10%;
     right: 10%;
     height: 30%;
-    background: #ffd700;
+    background: #c0c0c0;
     border-radius: 50%;
   }
 
   /* Elegant color variations inspired by luxury fashion */
   .elegant-1 {
-    background: linear-gradient(45deg, #ffd700, #d9b6a3);
+    background: linear-gradient(45deg, #c0c0c0, #d9b6a3);
     color: #000;
   }
 
@@ -420,7 +420,7 @@ a:focus-visible {
 
   .elegant-4 {
     background: linear-gradient(45deg, #734434, #732f17);
-    color: #ffd700;
+    color: #c0c0c0;
   }
 
   /* Enhanced Basquiat-style elements with new palette */
@@ -486,7 +486,7 @@ a:focus-visible {
     top: -20px;
     right: -15px;
     font-size: 16px;
-    color: #ffd700;
+    color: #c0c0c0;
     transform: rotate(15deg);
     z-index: 1;
   }
@@ -565,14 +565,14 @@ a:focus-visible {
       135deg,
       #000000 0%,
       #404040 25%,
-      #ffd700 50%,
+      #c0c0c0 50%,
       #bf754b 75%,
       #000000 100%
     );
   }
 
-  .gold-gradient {
-    background: linear-gradient(45deg, #ffd700, #d4af37, #b8860b);
+  .silver-gradient {
+    background: linear-gradient(45deg, #c0c0c0, #e5e4e2, #d3d3d3);
   }
 
   .velvet-gradient {
@@ -583,11 +583,11 @@ a:focus-visible {
   .luxury-gradient-1 {
     background: linear-gradient(
       45deg,
-      #ffd700 0%,
+      #c0c0c0 0%,
       #bf754b 25%,
       #a6583c 50%,
       #d9b6a3 75%,
-      #ffd700 100%
+      #c0c0c0 100%
     );
   }
 
@@ -596,7 +596,7 @@ a:focus-visible {
       135deg,
       #000000 0%,
       #734434 25%,
-      #ffd700 50%,
+      #c0c0c0 50%,
       #d2d9d8 75%,
       #000000 100%
     );
@@ -606,7 +606,7 @@ a:focus-visible {
     border: 1px solid transparent;
     background:
       linear-gradient(#000000, #000000) padding-box,
-      linear-gradient(45deg, #ffd700, #bf754b) border-box;
+      linear-gradient(45deg, #c0c0c0, #bf754b) border-box;
   }
 
   /* Luxury borders */
@@ -614,7 +614,7 @@ a:focus-visible {
     border: 3px solid transparent;
     background:
       linear-gradient(#000000, #000000) padding-box,
-      linear-gradient(45deg, #ffd700, #d9b6a3, #bf754b, #a6583c) border-box;
+      linear-gradient(45deg, #c0c0c0, #d9b6a3, #bf754b, #a6583c) border-box;
   }
 
   /* Enhanced Basquiat-style rough border with new colors */
@@ -622,7 +622,7 @@ a:focus-visible {
     border: 3px solid transparent;
     background:
       linear-gradient(#000000, #000000) padding-box,
-      linear-gradient(45deg, #ffd700, #bf754b, #a6583c) border-box;
+      linear-gradient(45deg, #c0c0c0, #bf754b, #a6583c) border-box;
     filter: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='roughpaper'%3E%3CfeTurbulence baseFrequency='0.04' numOctaves='5' result='noise' seed='1'/%3E%3CfeDisplacementMap in='SourceGraphic' in2='noise' scale='2'/%3E%3C/filter%3E%3C/svg%3E#roughpaper");
   }
 
@@ -687,7 +687,7 @@ a:focus-visible {
     left: 0;
     width: 100%;
     height: 2px;
-    background: linear-gradient(90deg, transparent, #ffd700, transparent);
+    background: linear-gradient(90deg, transparent, #c0c0c0, transparent);
     animation: scan-line 2s linear infinite;
   }
 
@@ -815,7 +815,7 @@ a:focus-visible {
 
   /* Elegant text effects */
   .elegant-text-1 {
-    background: linear-gradient(45deg, #ffd700, #d4af37);
+    background: linear-gradient(45deg, #c0c0c0, #e5e4e2);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -866,12 +866,12 @@ a:focus-visible {
   }
 
   /* Elegant glow effects */
-  .gold-glow {
+  .silver-glow {
     box-shadow:
-      0 0 5px #ffd700,
-      0 0 10px #ffd700,
-      0 0 15px #ffd700,
-      0 0 20px #ffd700;
+      0 0 5px #c0c0c0,
+      0 0 10px #c0c0c0,
+      0 0 15px #c0c0c0,
+      0 0 20px #c0c0c0;
   }
 
   .velvet-glow {
@@ -943,8 +943,8 @@ a:focus-visible {
   }
 
   /* Color utilities */
-  .text-gold {
-    color: #ffd700;
+  .text-silver {
+    color: #c0c0c0;
   }
 
   .text-velvet {
@@ -968,12 +968,12 @@ a:focus-visible {
   }
 
   /* Paint brush stroke effects with new colors */
-  .brush-stroke-gold {
+  .brush-stroke-silver {
     background: linear-gradient(
       45deg,
       transparent 30%,
-      #ffd700 30%,
-      #ffd700 70%,
+      #c0c0c0 30%,
+      #c0c0c0 70%,
       transparent 70%
     );
     transform: rotate(-2deg);
@@ -1014,7 +1014,7 @@ a:focus-visible {
 
   /* Luxury block backgrounds */
   .luxury-block-1 {
-    background: linear-gradient(135deg, #ffd700 0%, #d4af37 100%);
+    background: linear-gradient(135deg, #c0c0c0 0%, #e5e4e2 100%);
   }
 
   .luxury-block-2 {
