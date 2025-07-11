@@ -110,11 +110,11 @@ const Index = () => {
         </div>
       </div>
 
-      {/* Presave Popup - Auto-shows after 5 seconds and manual trigger */}
+      {/* Presave Popup - Auto-shows after 1.5 seconds and manual trigger */}
       <PresavePopup
         autoShow={true}
         delay={1500}
-        isOpen={presavePopupOpen}
+        isOpen={presavePopupOpen || undefined}
         onOpenChange={setPresavePopupOpen}
       />
     </PageLayout>
