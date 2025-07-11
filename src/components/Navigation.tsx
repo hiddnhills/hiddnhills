@@ -142,7 +142,7 @@ const DesktopNavButton = memo<{ link: NavLink }>(({ link }) => {
         size="sm"
         className={cn(
           "text-white/80 hover:text-white hover:bg-white/10 transition-all duration-300",
-          "px-1.5 py-1 text-xs font-medium uppercase font-['Montserrat']",
+          "px-1.5 py-1 text-xs sm:text-xs font-medium uppercase font-['Montserrat'] min-h-[44px]",
         )}
       >
         <a
@@ -164,7 +164,7 @@ const DesktopNavButton = memo<{ link: NavLink }>(({ link }) => {
       variant="ghost"
       size="sm"
       className={cn(
-        "transition-all duration-300 px-1.5 py-1 text-xs font-medium uppercase font-['Montserrat']",
+        "transition-all duration-300 px-1.5 py-1 text-xs sm:text-xs font-medium uppercase font-['Montserrat'] min-h-[44px]",
         isActive
           ? "text-white bg-white/20 hover:bg-white/30"
           : "text-white/80 hover:text-white hover:bg-white/10",
