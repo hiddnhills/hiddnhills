@@ -114,7 +114,7 @@ a:focus-visible {
     --popover: 0 0% 5%;
     --popover-foreground: 0 0% 95%;
 
-    --primary: 51 100% 50%;
+    --primary: 0 0% 75%;
     --primary-foreground: 0 0% 5%;
 
     --secondary: 28 32% 25%;
@@ -123,7 +123,7 @@ a:focus-visible {
     --muted: 0 0% 15%;
     --muted-foreground: 0 0% 65%;
 
-    --accent: 51 100% 50%;
+    --accent: 0 0% 75%;
     --accent-foreground: 0 0% 5%;
 
     --destructive: 0 62% 30%;
@@ -131,7 +131,7 @@ a:focus-visible {
 
     --border: 0 0% 20%;
     --input: 0 0% 20%;
-    --ring: 51 100% 50%;
+    --ring: 0 0% 75%;
     --sidebar-background: 0 0% 8%;
     --sidebar-foreground: 0 0% 75%;
     --sidebar-primary: 51 100% 50%;
