@@ -62,7 +62,7 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
-        // Rolls-Royce inspired minimal palette - very little gold
+        // Rolls-Royce inspired minimal palette - elegant silver accents
         "primary-dark": "rgb(21, 21, 21)",
         "secondary-dark": "rgb(34, 34, 34)",
         "accent-gray": "rgb(59, 59, 59)",
