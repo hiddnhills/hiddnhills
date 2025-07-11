@@ -53,7 +53,7 @@ export const PresavePopup: React.FC<PresavePopupProps> = ({
         if (!hasShown) {
           setOpen(true);
           setHasShown(true);
-          localStorage.setItem("presave-popup-shown", "true");
+          sessionStorage.setItem("presave-popup-shown", "true");
         }
       }, delay);
 
