@@ -58,48 +58,33 @@ export const PresavePopup: React.FC<PresavePopupProps> = ({
   };
 
   const PopupContent = () => (
-    <DialogContent className="max-w-md mx-auto bg-artistic-charcoal border-2 border-artistic-silver/20 shadow-luxury backdrop-blur-sm">
-      <DialogHeader className="text-center space-y-4">
-        <div className="mx-auto w-16 h-16 bg-gradient-to-br from-artistic-pearl to-artistic-silver rounded-full flex items-center justify-center mb-2">
-          <Music className="w-8 h-8 text-artistic-charcoal" />
-        </div>
-
-        <DialogTitle className="text-2xl font-black tracking-wide bg-gradient-to-br from-white via-artistic-pearl to-artistic-silver bg-clip-text text-transparent leading-none uppercase font-['Montserrat']">
-          New Music Alert
+    <DialogContent className="max-w-sm mx-auto bg-black/90 border border-white/20 backdrop-blur-sm rounded-lg">
+      <DialogHeader className="text-center space-y-6">
+        <DialogTitle className="text-xl font-medium tracking-wide text-white font-['Montserrat'] uppercase">
+          "Be Like You"
         </DialogTitle>
 
-        <DialogDescription className="text-artistic-pearl/80 text-sm leading-relaxed space-y-2">
-          <div className="text-lg font-semibold text-white mb-2">
-            "Be Like You"
-          </div>
-          <div>
-            Get ready for the latest track from HIDDNHILLS. Presave now to be
-            the first to experience it when it drops.
-          </div>
+        <DialogDescription className="text-white/80 text-sm font-['Montserrat']">
+          New track from HIDDNHILLS
         </DialogDescription>
       </DialogHeader>
 
-      <div className="space-y-4 mt-6">
+      <div className="space-y-3 mt-6">
         <Button
           onClick={handlePresaveClick}
-          className="w-full bg-gradient-to-r from-artistic-pearl to-artistic-silver text-artistic-charcoal font-bold py-3 px-6 rounded-lg hover:from-white hover:to-artistic-pearl transition-all duration-300 transform hover:scale-105 shadow-lg"
+          className="w-full bg-white/20 text-white font-['Montserrat'] font-medium py-3 px-6 rounded-md hover:bg-white/30 transition-colors duration-300 uppercase text-sm tracking-wide"
         >
-          <ExternalLink className="w-4 h-4 mr-2" />
-          Presave "Be Like You"
+          Presave Now
         </Button>
 
         <DialogClose asChild>
           <Button
             variant="ghost"
-            className="w-full text-artistic-silver/60 hover:text-artistic-pearl hover:bg-artistic-smoke/20 transition-colors"
+            className="w-full text-white/60 hover:text-white hover:bg-white/10 transition-colors font-['Montserrat'] text-sm"
           >
-            Maybe Later
+            Later
           </Button>
         </DialogClose>
-      </div>
-
-      <div className="text-center text-xs text-artistic-silver/40 mt-4">
-        Underground Hip-Hop • Las Vegas
       </div>
     </DialogContent>
   );
