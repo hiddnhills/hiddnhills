@@ -114,8 +114,10 @@ const Index = () => {
       <PresavePopup
         autoShow={true}
         delay={1500}
-        isOpen={presavePopupOpen || undefined}
-        onOpenChange={setPresavePopupOpen}
+        isOpen={presavePopupOpen ? presavePopupOpen : undefined}
+        onOpenChange={(open) => {
+          setPresavePopupOpen(open);
+        }}
       />
     </PageLayout>
   );
