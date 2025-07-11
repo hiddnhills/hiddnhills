@@ -89,8 +89,10 @@ const Index = () => {
               <div className="mt-6 pt-4 border-t border-white/10">
                 <Button
                   onClick={() => setPresavePopupOpen(true)}
-                  className="w-full bg-white/20 text-white font-['Montserrat'] font-medium hover:bg-white/30 transition-colors duration-300 uppercase text-sm tracking-wide rounded-md"
+                  className="w-full bg-white/20 text-white font-['Montserrat'] font-medium hover:bg-white/30 active:bg-white/40 transition-colors duration-300 uppercase text-sm tracking-wide rounded-md min-h-[48px] touch-manipulation"
                   size="sm"
+                  type="button"
+                  aria-label="Open presave popup for new music"
                 >
                   <Music className="w-4 h-4 mr-2" />
                   Presave New Music
