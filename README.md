@@ -1,4 +1,5 @@
 # HIDDNHILLS - Art over Ego
+
 > Underground Hip-Hop Visionary • Las Vegas
 
 ## Features
@@ -44,4 +45,4 @@
 
 ---
 
-_Underground Visionary • Art over Ego
+\_Underground Visionary • Art over Ego
