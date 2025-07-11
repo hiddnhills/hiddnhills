@@ -122,7 +122,7 @@ export const SlotMachineButton = memo<SlotMachineButtonProps>(
       () =>
         cn(
           "text-white/80 hover:text-white bg-transparent border-none outline-none font-light",
-          "px-2 py-1 text-xs tracking-[1px] uppercase transition-all duration-300",
+          "px-3 py-2 text-xs tracking-[1px] uppercase transition-all duration-300 min-h-[44px] touch-manipulation",
           "focus:outline-none focus:ring-0 focus:border-none",
           showUnderline && [
             "underline decoration-white/40 hover:decoration-white underline-offset-4",
