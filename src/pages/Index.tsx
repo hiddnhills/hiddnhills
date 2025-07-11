@@ -83,6 +83,9 @@ const Index = () => {
           </div>
         </div>
       </div>
+
+      {/* Presave Popup - Auto-shows after 5 seconds */}
+      <PresavePopup autoShow={true} delay={5000} />
     </PageLayout>
   );
 };
