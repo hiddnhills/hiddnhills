@@ -114,12 +114,12 @@ export const PresavePopup: React.FC<PresavePopupProps> = ({
     </DialogContent>
   );
 
+  // Determine which open state to use - external prop takes precedence over internal state
+  const isDialogOpen = isOpen !== undefined ? isOpen : internalOpen;
+
   if (trigger) {
     return (
-      <Dialog
-        open={isOpen ?? open}
-        onOpenChange={onOpenChange ?? handleOpenChange}
-      >
+      <Dialog open={isDialogOpen} onOpenChange={handleOpenChange}>
         <DialogTrigger asChild>{trigger}</DialogTrigger>
         <PopupContent />
       </Dialog>
@@ -127,10 +127,7 @@ export const PresavePopup: React.FC<PresavePopupProps> = ({
   }
 
   return (
-    <Dialog
-      open={isOpen ?? open}
-      onOpenChange={onOpenChange ?? handleOpenChange}
-    >
+    <Dialog open={isDialogOpen} onOpenChange={handleOpenChange}>
       <PopupContent />
     </Dialog>
   );
