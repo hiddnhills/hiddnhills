@@ -113,7 +113,7 @@ const Index = () => {
       {/* Presave Popup - Auto-shows after 5 seconds and manual trigger */}
       <PresavePopup
         autoShow={true}
-        delay={5000}
+        delay={1500}
         isOpen={presavePopupOpen}
         onOpenChange={setPresavePopupOpen}
       />
