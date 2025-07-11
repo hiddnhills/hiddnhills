@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { PageLayout } from "@/components/PageLayout";
 import { LoopingNavigationButtons } from "@/components/LoopingNavigationButtons";
 import { PresavePopup } from "@/components/PresavePopup";
+import { Button } from "@/components/ui/button";
+import { Music } from "lucide-react";
 
 // Slot machine alternatives for each button
 const slotMachineOptions = {
