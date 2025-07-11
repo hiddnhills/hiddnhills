@@ -26,40 +26,41 @@ export const PresavePopup: React.FC<PresavePopupProps> = ({
   autoShow = false,
   delay = 3000,
 }) => {
-  const [open, setOpen] = useState(false);
-  const [hasShown, setHasShown] = useState(false);
+  const [internalOpen, setInternalOpen] = useState(false);
+  const [hasAutoShown, setHasAutoShown] = useState(false);
 
-  // Check localStorage on mount to prevent repeated auto-shows in the same session
+  // Check sessionStorage on mount to prevent repeated auto-shows in the same session
   useEffect(() => {
     const hasSeenPopup = sessionStorage.getItem("presave-popup-shown");
     if (hasSeenPopup) {
-      setHasShown(true);
+      setHasAutoShown(true);
     }
   }, []);
 
   const handleOpenChange = (newOpen: boolean) => {
-    setOpen(newOpen);
+    setInternalOpen(newOpen);
     onOpenChange?.(newOpen);
     if (newOpen) {
-      setHasShown(true);
+      setHasAutoShown(true);
       // Remember that user has seen the popup for this session
       sessionStorage.setItem("presave-popup-shown", "true");
     }
   };
 
   useEffect(() => {
-    if (autoShow && !hasShown) {
+    if (autoShow && !hasAutoShown) {
       const timer = setTimeout(() => {
-        if (!hasShown) {
-          setOpen(true);
-          setHasShown(true);
+        if (!hasAutoShown) {
+          setInternalOpen(true);
+          setHasAutoShown(true);
           sessionStorage.setItem("presave-popup-shown", "true");
+          onOpenChange?.(true);
         }
       }, delay);
 
       return () => clearTimeout(timer);
     }
-  }, [autoShow, delay, hasShown]);
+  }, [autoShow, delay, hasAutoShown, onOpenChange]);
 
   const presaveUrl = "https://distrokid.com/hyperfollow/hiddnhills/be-like-you";
 
@@ -113,12 +114,12 @@ export const PresavePopup: React.FC<PresavePopupProps> = ({
     </DialogContent>
   );
 
+  // Determine which open state to use - external prop takes precedence over internal state
+  const isDialogOpen = isOpen !== undefined ? isOpen : internalOpen;
+
   if (trigger) {
     return (
-      <Dialog
-        open={isOpen ?? open}
-        onOpenChange={onOpenChange ?? handleOpenChange}
-      >
+      <Dialog open={isDialogOpen} onOpenChange={handleOpenChange}>
         <DialogTrigger asChild>{trigger}</DialogTrigger>
         <PopupContent />
       </Dialog>
@@ -126,10 +127,7 @@ export const PresavePopup: React.FC<PresavePopupProps> = ({
   }
 
   return (
-    <Dialog
-      open={isOpen ?? open}
-      onOpenChange={onOpenChange ?? handleOpenChange}
-    >
+    <Dialog open={isDialogOpen} onOpenChange={handleOpenChange}>
       <PopupContent />
     </Dialog>
   );
