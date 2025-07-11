@@ -968,7 +968,7 @@ a:focus-visible {
   }
 
   /* Paint brush stroke effects with new colors */
-  .brush-stroke-gold {
+  .brush-stroke-silver {
     background: linear-gradient(
       45deg,
       transparent 30%,
