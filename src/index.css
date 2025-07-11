@@ -866,7 +866,7 @@ a:focus-visible {
   }
 
   /* Elegant glow effects */
-  .gold-glow {
+  .silver-glow {
     box-shadow:
       0 0 5px #c0c0c0,
       0 0 10px #c0c0c0,
