@@ -86,14 +86,14 @@ const Index = () => {
               />
 
               {/* Presave Button */}
-              <div className="mt-6 pt-4 border-t border-artistic-silver/10">
+              <div className="mt-6 pt-4 border-t border-white/10">
                 <Button
                   onClick={() => setPresavePopupOpen(true)}
-                  className="w-full bg-gradient-to-r from-artistic-pearl/20 to-artistic-silver/20 border border-artistic-silver/30 text-artistic-pearl hover:from-artistic-pearl/30 hover:to-artistic-silver/30 hover:text-white transition-all duration-300 backdrop-blur-sm"
+                  className="w-full bg-white/20 text-white font-['Montserrat'] font-medium hover:bg-white/30 transition-colors duration-300 uppercase text-sm tracking-wide rounded-md"
                   size="sm"
                 >
                   <Music className="w-4 h-4 mr-2" />
-                  New Music: "Be Like You"
+                  New Music
                 </Button>
               </div>
             </div>
