@@ -13,6 +13,14 @@ const slotMachineOptions = {
   press: ["PRESS", "MEDIA", "NEWS", "COVERAGE", "ARTICLES", "FEATURES"],
   contact: ["CONTACT", "REACH", "EMAIL", "BOOKING", "INQUIRIES", "CONNECT"],
   links: ["LINKS", "SOCIALS", "CONNECT", "FOLLOW", "CONTACT", "REACH"],
+  newMusic: [
+    "NEW MUSIC",
+    "NEW TRACK",
+    "PRESAVE",
+    "BE LIKE YOU",
+    "LATEST",
+    "FRESH",
+  ],
 };
 
 // Vertical marquee content
