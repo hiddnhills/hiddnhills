@@ -6,9 +6,9 @@
 export const APP_CONFIG = {
   name: "HIDDNHILLS",
   tagline: "Art before ego.",
-  description: "Underground Hip-Hop Visionary from Las Vegas",
+  description: "Underground Hip-Hop ARTIST from Las Vegas",
   copyright: "© 2025 ITSWINMEDIA",
-  established: "Since 2016",
+  established: "Since 97'",
 } as const;
 
 // External links
@@ -125,7 +125,7 @@ export const DEFAULT_MARQUEE_ITEMS = {
   ],
   right: [
     "LAS VEGAS",
-    "SINCE 2016",
+    "SINCE 1997",
     "HIP-HOP",
     "INDEPENDENT",
     "ORIGINAL",
@@ -210,11 +210,11 @@ export const PAGE_MARQUEE_ITEMS = {
       "VISUAL",
       "ARTISTIC",
       "CREATIVE",
-      "AESTHETIC",
-      "PORTFOLIO",
+      "AUTHENTIC",
+      "LENSE",
       "COLLECTION",
-      "SHOWCASE",
-      "EXHIBITION",
+      "LIFE",
+      "TIME",
     ],
   },
 } as const;
