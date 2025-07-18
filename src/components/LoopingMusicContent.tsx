@@ -47,6 +47,13 @@ export const LoopingMusicContent: React.FC = () => {
       year: "2025",
     },
     {
+      id: "take-freestyle",
+      title: "Take Freestyle",
+      spotifyId: "3F6mZSCFGCQVepbcHXVrtM",
+      appleId: "1818645980",
+      year: "2025",
+    },
+    {
       id: "japanese-gin",
       title: "Japanese Gin",
       spotifyId: "5sQ27QrdoNwSPgJbwXqNQ8",
