@@ -41,7 +41,7 @@ export const LoopingMusicContent: React.FC = () => {
   const baseTracks: Track[] = [
     {
       id: "a-la-carte",
-      title: "A La Carte",
+      title: "A La Carte Freestyle",
       spotifyId: "3DRgT0vZhGXz62CxqeX88G",
       appleId: "1818645980",
       year: "2025",
