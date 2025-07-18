@@ -24,7 +24,7 @@ export const PresavePopup: React.FC<PresavePopupProps> = ({
   onOpenChange,
   trigger,
   autoShow = false,
-  delay = 3000,
+  delay = 2800,
 }) => {
   const [internalOpen, setInternalOpen] = useState(false);
   const [hasAutoShown, setHasAutoShown] = useState(false);
