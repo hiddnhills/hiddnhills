@@ -74,7 +74,7 @@ export const PresavePopup: React.FC<PresavePopupProps> = ({
       <DialogHeader className="text-center space-y-4">
         <div className="mx-auto w-24 h-24 sm:w-32 sm:h-32 rounded-lg overflow-hidden">
           <img
-            src="https://cdn.builder.io/api/v1/image/assets%2F0dd1a1ded0234fbb9d750f1dcd8d1bea%2F11e1ab4378c44b54a7e4881fd22d97bc?format=webp&width=800"
+            src="https://imgur.com/a/hiddnhills-tm-cover-art-be-like-you-aoE1kMh?format=webp&width=800"
             alt="Be Like You - Track Cover"
             className="w-full h-full object-cover"
             loading="lazy"
