@@ -229,7 +229,7 @@ export const LoopingMusicContent: React.FC = () => {
               }}
               src={`https://embed.music.apple.com/us/song/${track.appleId}`}
               width="100%"
-              height="50"
+              height="100"
               frameBorder="0"
               allowFullScreen
               allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture"
