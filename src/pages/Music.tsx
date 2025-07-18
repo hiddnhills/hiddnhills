@@ -2,25 +2,25 @@ import { PageLayout } from "@/components/PageLayout";
 import { LoopingMusicContent } from "@/components/LoopingMusicContent";
 
 const musicLeftMarquee = [
-  "UNDERGROUND VIBES",
-  "WAVS & FREQUENCIES",
-  "ELECTRONIC SYNTHESIS",
-  "BEAT CONSTRUCTION",
-  "SONIC LANDSCAPES",
-  "AUDIO ENGINEERING",
-  "SOUND DESIGN",
-  "MUSIC PRODUCTION",
+  "UNDERGROUND",
+  "WAVS",
+  "DOPE",
+  "BEATS",
+  "SONICS",
+  "VIBES",
+  "SOUND",
+  "FREQUENCIES",
 ] as const;
 
 const musicRightMarquee = [
-  "STUDIO SESSIONS",
-  "CREATIVE PROCESS",
-  "SOUND EXPLORATION",
-  "TRACK DEVELOPMENT",
-  "MIXING & MASTERING",
-  "MUSICAL JOURNEY",
-  "SONIC EXPERIMENTATION",
-  "AUDIO INNOVATION",
+  "STUDIO",
+  "LYRICIST",
+  "EXPLORATION",
+  "DEVELOPMENT",
+  "MIXING",
+  "MASTERING",
+  "STORYTELLING",
+  "INNOVATION",
 ] as const;
 
 export function Music() {
