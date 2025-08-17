@@ -170,7 +170,7 @@ const HIDDNHILLS_TRACKS: Track[] = [
 
 export const GlobalAudioPlayer: React.FC = () => {
   // Featured tracks: No Pain No Gain, No Creases, or Nirvana
-  const featuredTrackIndices = [2, 3, 6]; // nirvana, no-creases, no-pain-no-gain
+  const featuredTrackIndices = [2, 5, 6]; // be-like-you, no-creases, nirvana
 
   const [currentTrackIndex, setCurrentTrackIndex] = useState(() => {
     // Only randomize once on initial mount
