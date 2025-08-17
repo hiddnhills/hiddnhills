@@ -51,14 +51,7 @@ export const LoopingMusicContent: React.FC = () => {
       title: "A La Carte Freestyle",
       spotifyId: "3DRgT0vZhGXz62CxqeX88G",
       appleId: "1818645980",
-      year: "2025",
-    },
-    {
-      id: "take-freestyle",
-      title: "Take Freestyle",
-      spotifyId: "5Qle0IPD6xswf0hVIyIpRz",
-      appleId: "1827446103",
-      year: "2019",
+      year: "2022",
     },
     {
       id: "japanese-gin",
@@ -122,6 +115,13 @@ export const LoopingMusicContent: React.FC = () => {
       spotifyId: "0x45kmELI1NrHJOLmpD7gZ",
       appleId: "1818669272",
       year: "2023",
+    },
+    {
+      id: "take-freestyle",
+      title: "Take Freestyle",
+      spotifyId: "5Qle0IPD6xswf0hVIyIpRz",
+      appleId: "1827446103",
+      year: "2019",
     },
   ];
 
