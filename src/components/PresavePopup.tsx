@@ -74,7 +74,7 @@ export const PresavePopup: React.FC<PresavePopupProps> = ({
       <DialogHeader className="text-center space-y-4">
         <div className="mx-auto w-24 h-24 sm:w-32 sm:h-32 rounded-lg overflow-hidden">
           <img
-            src="https://imgur.com/a/patience-is-virtue-NMrel6g#2tgjr8J"
+            src="https://i.imgur.com/2tgjr8J.jpeg"
             alt="Patience is a Virtue - Track Cover"
             className="w-full h-full object-cover"
             loading="lazy"
@@ -82,7 +82,7 @@ export const PresavePopup: React.FC<PresavePopupProps> = ({
         </div>
 
         <DialogTitle className="text-lg sm:text-xl font-medium tracking-wide text-white font-['Montserrat'] uppercase text-center">
-          "Be Like You"
+          "Patience is a Virtue"
         </DialogTitle>
 
         <DialogDescription className="text-white/80 text-sm font-['Montserrat'] text-center px-2">
