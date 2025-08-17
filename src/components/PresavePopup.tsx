@@ -62,7 +62,7 @@ export const PresavePopup: React.FC<PresavePopupProps> = ({
     }
   }, [autoShow, delay, hasAutoShown, onOpenChange]);
 
-  const presaveUrl = "https://distrokid.com/hyperfollow/hiddnhills/be-like-you";
+  const presaveUrl = "https://distrokid.com/hyperfollow/hiddnhills/patience-is-a-virtue";
 
   const handlePresaveClick = () => {
     window.open(presaveUrl, "_blank", "noopener,noreferrer");
@@ -74,8 +74,8 @@ export const PresavePopup: React.FC<PresavePopupProps> = ({
       <DialogHeader className="text-center space-y-4">
         <div className="mx-auto w-24 h-24 sm:w-32 sm:h-32 rounded-lg overflow-hidden">
           <img
-            src="https://i.imgur.com/ndFvKtb.jpeg"
-            alt="Be Like You - Track Cover"
+            src="https://imgur.com/a/patience-is-virtue-NMrel6g#2tgjr8J"
+            alt="Patience is a Virtue - Track Cover"
             className="w-full h-full object-cover"
             loading="lazy"
           />
@@ -86,7 +86,7 @@ export const PresavePopup: React.FC<PresavePopupProps> = ({
         </DialogTitle>
 
         <DialogDescription className="text-white/80 text-sm font-['Montserrat'] text-center px-2">
-          New track from HIDDNHILLS August 8, 2025
+          New track from HIDDNHILLS September 1, 2025
         </DialogDescription>
       </DialogHeader>
 
@@ -95,7 +95,7 @@ export const PresavePopup: React.FC<PresavePopupProps> = ({
           onClick={handlePresaveClick}
           className="w-full bg-white/20 text-white font-['Montserrat'] font-medium py-3 px-6 rounded-md hover:bg-white/30 active:bg-white/40 transition-colors duration-300 uppercase text-sm tracking-wide min-h-[48px] touch-manipulation"
           type="button"
-          aria-label="Presave Be Like You on music platforms"
+          aria-label="Presave Patience is a Virtue on music platforms"
         >
           Presave New Music
         </Button>
