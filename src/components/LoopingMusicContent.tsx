@@ -114,7 +114,7 @@ export const LoopingMusicContent: React.FC = () => {
       title: "A La Carte Freestyle",
       spotifyId: "3DRgT0vZhGXz62CxqeX88G",
       appleId: "1818645980",
-      year: "2022",
+      year: "2023",
     },
     {
       id: "take-freestyle",
