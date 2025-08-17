@@ -27,7 +27,7 @@ interface Track {
 const HIDDNHILLS_TRACKS: Track[] = [
   {
     id: "a-la-carte",
-    title: "A La Carte",
+    title: "A La Carte Freestyle",
     artist: "HIDDNHILLS",
     spotifyTrackId: "3DRgT0vZhGXz62CxqeX88G",
     spotifyUrl: "https://open.spotify.com/track/3DRgT0vZhGXz62CxqeX88G",
@@ -36,6 +36,30 @@ const HIDDNHILLS_TRACKS: Track[] = [
     appleAlbumId: "1818645980",
     appleTrackId: "1818645980",
     year: "2025",
+  },
+  {
+    id: "be-like-you",
+    title: "Be Like You",
+    artist: "HIDDNHILLS",
+    spotifyTrackId: "6EJKQpn65MlQeCcxktgH1Q",
+    spotifyUrl: "https://open.spotify.com/album/1dKD4LfiPFrJJzAQjQc1dU?si=9Ze0OdYERw-hbd16rRBi7w",
+    appleUrl:
+      "https://music.apple.com/us/album/be-like-you-single/1826237122",
+    appleAlbumId: "1826237123",
+    appleTrackId: "1826237123",
+    year: "2025",
+  },
+  {
+    id: "take-freestyle",
+    title: "Take Freestyle",
+    artist: "HIDDNHILLS",
+    spotifyTrackId: "5Qle0IPD6xswf0hVIyIpRz",
+    spotifyUrl: "https://open.spotify.com/album/3F6mZSCFGCQVepbcHXVrtM?si=nknn_fTaSqGtxTO8_lLl0A",
+    appleUrl:
+      "https://music.apple.com/us/album/take-freestyle-single/1827446102",
+    appleAlbumId: "1827446103",
+    appleTrackId: "1827446103",
+    year: "2019",
   },
   {
     id: "japanese-gin",
