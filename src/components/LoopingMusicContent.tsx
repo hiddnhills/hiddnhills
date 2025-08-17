@@ -126,7 +126,7 @@ export const LoopingMusicContent: React.FC = () => {
   ];
 
   // Latest release (newest)
-  const latestTrack = baseTracks.find((track) => track.id === "be-like-you")!;
+  const latestTrack = baseTracks.find((track) => track.id === "")!;
 
   // Current featured track
   const currentFeaturedTrack = baseTracks.find(
