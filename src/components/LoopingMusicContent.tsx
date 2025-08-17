@@ -40,6 +40,13 @@ export const LoopingMusicContent: React.FC = () => {
   // Base track catalog
   const baseTracks: Track[] = [
     {
+      id: "be-like-you",
+      title: "Be Like You",
+      spotifyId: "6EJKQpn65MlQeCcxktgH1Q",
+      appleId: "1826237123",
+      year: "2025",
+    }, 
+    {
       id: "a-la-carte",
       title: "A La Carte Freestyle",
       spotifyId: "3DRgT0vZhGXz62CxqeX88G",
@@ -50,7 +57,7 @@ export const LoopingMusicContent: React.FC = () => {
       id: "take-freestyle",
       title: "Take Freestyle",
       spotifyId: "3F6mZSCFGCQVepbcHXVrtM",
-      appleId: "", // To be added
+      appleId: "",
       year: "2025",
     },
     {
