@@ -33,8 +33,8 @@ export const LoopingMusicContent: React.FC = () => {
     "spotify",
   );
   const [featuredTrack, setFeaturedTrack] = useState<
-    "be-like-you" | "nirvana"
-  >("be-like-you");
+    "nirvana" | "rain"
+  >("nirvana");
   const [showLatestFirst, setShowLatestFirst] = useState(true);
 
   // Base track catalog
@@ -126,7 +126,7 @@ export const LoopingMusicContent: React.FC = () => {
   ];
 
   // Latest release (newest)
-  const latestTrack = baseTracks.find((track) => track.id === "")!;
+  const latestTrack = baseTracks.find((track) => track.id === "be-like-you")!;
 
   // Current featured track
   const currentFeaturedTrack = baseTracks.find(
@@ -136,7 +136,7 @@ export const LoopingMusicContent: React.FC = () => {
   // Dynamic track ordering based on showLatestFirst
   const tracks = useMemo(() => {
     const otherTracks = baseTracks.filter(
-      (track) => track.id !== "a-la-carte" && track.id !== featuredTrack,
+      (track) => track.id !== "be-like-you" && track.id !== featuredTrack,
     );
 
     if (showLatestFirst) {
@@ -150,7 +150,7 @@ export const LoopingMusicContent: React.FC = () => {
   useEffect(() => {
     // Randomly set initial state once per session
     const randomFeaturedTrack =
-      Math.random() > 0.5 ? "nirvana" : "be-like-you";
+      Math.random() > 0.5 ? "nirvana" : "rain";
     const randomShowLatestFirst = Math.random() > 0.5;
 
     setFeaturedTrack(randomFeaturedTrack);
