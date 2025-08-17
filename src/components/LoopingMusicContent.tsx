@@ -34,7 +34,7 @@ export const LoopingMusicContent: React.FC = () => {
   );
   const [featuredTrack, setFeaturedTrack] = useState<
     "be-like-you" | "nirvana"
-  >("nirvana");
+  >("be-like-you");
   const [showLatestFirst, setShowLatestFirst] = useState(true);
 
   // Base track catalog
