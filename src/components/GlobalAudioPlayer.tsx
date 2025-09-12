@@ -26,6 +26,17 @@ interface Track {
 // Real HIDDNHILLS tracks with the provided Spotify URLs
 const HIDDNHILLS_TRACKS: Track[] = [
   {
+    id: "patience-is-a-virtue",
+    title: "Patience Is A Virtue",
+    artist: "HIDDNHILLS",
+    spotifyTrackId: "1yw9QXLTpumCiRRgOSu3Pw",
+    spotifyUrl: "https://open.spotify.com/track/1yw9QXLTpumCiRRgOSu3Pw",
+    appleUrl:
+      "https://music.apple.com/us/song/patience-is-a-virtue/1833811649",
+    appleAlbumId: "1833811649",
+    appleTrackId: "1833811649",
+    year: "2025",
+  },{
     id: "a-la-carte",
     title: "A La Carte Freestyle",
     artist: "HIDDNHILLS",
