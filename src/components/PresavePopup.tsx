@@ -86,7 +86,7 @@ export const PresavePopup: React.FC<PresavePopupProps> = ({
         </DialogTitle>
 
         <DialogDescription className="text-white/80 text-sm font-['Montserrat'] text-center px-2">
-          New track from HIDDNHILLS September 1, 2025
+          New track from HIDDNHILLS October 1, 2025
         </DialogDescription>
       </DialogHeader>
 
