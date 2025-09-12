@@ -82,7 +82,7 @@ export const PresavePopup: React.FC<PresavePopupProps> = ({
         </div>
 
         <DialogTitle className="text-lg sm:text-xl font-medium tracking-wide text-white font-['Montserrat'] uppercase text-center">
-          "Patience is a Virtue"
+          "Past Present Future"
         </DialogTitle>
 
         <DialogDescription className="text-white/80 text-sm font-['Montserrat'] text-center px-2">
