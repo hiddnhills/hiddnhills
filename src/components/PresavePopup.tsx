@@ -62,7 +62,7 @@ export const PresavePopup: React.FC<PresavePopupProps> = ({
     }
   }, [autoShow, delay, hasAutoShown, onOpenChange]);
 
-  const presaveUrl = "https://distrokid.com/hyperfollow/hiddnhills/patience-is-a-virtue";
+  const presaveUrl = "https://distrokid.com/hyperfollow/hiddnhills/past-present-future";
 
   const handlePresaveClick = () => {
     window.open(presaveUrl, "_blank", "noopener,noreferrer");
@@ -74,8 +74,8 @@ export const PresavePopup: React.FC<PresavePopupProps> = ({
       <DialogHeader className="text-center space-y-4">
         <div className="mx-auto w-24 h-24 sm:w-32 sm:h-32 rounded-lg overflow-hidden">
           <img
-            src="https://i.imgur.com/8WoRjcb.jpeg"
-            alt="Patience is a Virtue - Track Cover"
+            src="https://i.imgur.com/wRhRyJC.png"
+            alt="Past Present Future - Track Cover"
             className="w-full h-full object-cover"
             loading="lazy"
           />
