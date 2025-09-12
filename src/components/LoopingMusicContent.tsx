@@ -40,6 +40,13 @@ export const LoopingMusicContent: React.FC = () => {
   // Base track catalog
   const baseTracks: Track[] = [
     {
+      id: "patience-is-a-virtue",
+      title: "Patience Is A Virtue",
+      spotifyId: "1yw9QXLTpumCiRRgOSu3Pw",
+      appleId: "1833811649",
+      year: "2025",
+    }, 
+    {
       id: "be-like-you",
       title: "Be Like You",
       spotifyId: "6EJKQpn65MlQeCcxktgH1Q",
