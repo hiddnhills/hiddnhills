@@ -62,7 +62,7 @@ export const PresavePopup: React.FC<PresavePopupProps> = ({
     }
   }, [autoShow, delay, hasAutoShown, onOpenChange]);
 
-  const presaveUrl = "https://distrokid.com/hyperfollow/hiddnhills/past-present-future-2?utm_campaign=website&utm_medium=Email+&utm_source=SendGrid&fbclid=PAdGRleAMwXORleHRuA2FlbQIxMQABp7KRDOOvbmVhD2R4KgQcU3SCR_Hbk-LAT5_Zop0BC-iO7KTicxQrAYcRDekC_aem_v9oySyYLqeXsb675qD_2Yg";
+  const presaveUrl = "https://linktr.ee/hiddnhills";
 
   const handlePresaveClick = () => {
     window.open(presaveUrl, "_blank", "noopener,noreferrer");
@@ -74,19 +74,19 @@ export const PresavePopup: React.FC<PresavePopupProps> = ({
       <DialogHeader className="text-center space-y-4">
         <div className="mx-auto w-24 h-24 sm:w-32 sm:h-32 rounded-lg overflow-hidden">
           <img
-            src="https://i.imgur.com/wRhRyJC.png"
-            alt="Past Present Future - Track Cover"
+            src="https://i.imgur.com/6fRn87e.jpeg"
+            alt="Peter Pan - Track Cover"
             className="w-full h-full object-cover"
             loading="lazy"
           />
         </div>
 
         <DialogTitle className="text-lg sm:text-xl font-medium tracking-wide text-white font-['Montserrat'] uppercase text-center">
-          "Past Present Future"
+          "Peter Pan"
         </DialogTitle>
 
         <DialogDescription className="text-white/80 text-sm font-['Montserrat'] text-center px-2">
-          New track from HIDDNHILLS OUT NOW
+          New track from HIDDNHILLS OUT Novermber 18, 2025
         </DialogDescription>
       </DialogHeader>
 
@@ -95,9 +95,9 @@ export const PresavePopup: React.FC<PresavePopupProps> = ({
           onClick={handlePresaveClick}
           className="w-full bg-white/20 text-white font-['Montserrat'] font-medium py-3 px-6 rounded-md hover:bg-white/30 active:bg-white/40 transition-colors duration-300 uppercase text-sm tracking-wide min-h-[48px] touch-manipulation"
           type="button"
-          aria-label="Listen to Patience is a Virtue on music platforms"
+          aria-label="Presave Peter Pan on all music platforms"
         >
-          Listen to New Music
+          Presave New Music
         </Button>
 
         <DialogClose asChild>
