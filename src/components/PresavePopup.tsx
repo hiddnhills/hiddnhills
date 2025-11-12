@@ -62,7 +62,7 @@ export const PresavePopup: React.FC<PresavePopupProps> = ({
     }
   }, [autoShow, delay, hasAutoShown, onOpenChange]);
 
-  const presaveUrl = "https://linktr.ee/hiddnhills";
+  const presaveUrl = "https://distrokid.com/hyperfollow/hiddnhills/peter-pan";
 
   const handlePresaveClick = () => {
     window.open(presaveUrl, "_blank", "noopener,noreferrer");
@@ -86,7 +86,7 @@ export const PresavePopup: React.FC<PresavePopupProps> = ({
         </DialogTitle>
 
         <DialogDescription className="text-white/80 text-sm font-['Montserrat'] text-center px-2">
-          OUT Novermber 18, 2025
+        Novermber 18, 2025
         </DialogDescription>
       </DialogHeader>
 
