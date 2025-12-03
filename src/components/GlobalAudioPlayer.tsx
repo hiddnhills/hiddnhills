@@ -45,8 +45,8 @@ const HIDDNHILLS_TRACKS: Track[] = [
     spotifyUrl: "https://open.spotify.com/track/3RedEpUTG410miQjJRyuJp",
     appleUrl:
       "https://music.apple.com/za/song/past-present-future/1838359927",
-    appleAlbumId: "1833811649",
-    appleTrackId: "1833811649",
+    appleAlbumId: "1838359927",
+    appleTrackId: "1838359927",
     year: "2025",
   },
   {
