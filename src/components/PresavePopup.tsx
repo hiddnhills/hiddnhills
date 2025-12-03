@@ -86,7 +86,7 @@ export const PresavePopup: React.FC<PresavePopupProps> = ({
         </DialogTitle>
 
         <DialogDescription className="text-white/80 text-sm font-['Montserrat'] text-center px-2">
-        Available Novermber 18, 2025
+        OUT NOW
         </DialogDescription>
       </DialogHeader>
 
@@ -95,7 +95,7 @@ export const PresavePopup: React.FC<PresavePopupProps> = ({
           onClick={handlePresaveClick}
           className="w-full bg-white/20 text-white font-['Montserrat'] font-medium py-3 px-6 rounded-md hover:bg-white/30 active:bg-white/40 transition-colors duration-300 uppercase text-sm tracking-wide min-h-[48px] touch-manipulation"
           type="button"
-          aria-label="Presave Peter Pan on all music platforms"
+          aria-label="Listen to Peter Pan on all music platforms"
         >
           Presave New Music
         </Button>
