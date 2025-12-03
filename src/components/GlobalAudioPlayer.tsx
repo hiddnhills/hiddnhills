@@ -26,6 +26,30 @@ interface Track {
 // Real HIDDNHILLS tracks with the provided Spotify URLs
 const HIDDNHILLS_TRACKS: Track[] = [
   {
+    id: "peter-pan",
+    title: "Peter Pan",
+    artist: "HIDDNHILLS",
+    spotifyTrackId: "0hBYakSYite7TlKngEyhNG",
+    spotifyUrl: "https://open.spotify.com/track/0hBYakSYite7TlKngEyhNG",
+    appleUrl:
+      "https://music.apple.com/za/song/peter-pan/1853516754",
+    appleAlbumId: "1853516754",
+    appleTrackId: "1853516754",
+    year: "2025",
+  },
+  {
+    id: "past-present-future",
+    title: "Past Present Future",
+    artist: "HIDDNHILLS",
+    spotifyTrackId: "3RedEpUTG410miQjJRyuJp",
+    spotifyUrl: "https://open.spotify.com/track/3RedEpUTG410miQjJRyuJp",
+    appleUrl:
+      "https://music.apple.com/za/song/past-present-future/1838359927",
+    appleAlbumId: "1833811649",
+    appleTrackId: "1833811649",
+    year: "2025",
+  },
+  {
     id: "patience-is-a-virtue",
     title: "Patience Is A Virtue",
     artist: "HIDDNHILLS",
@@ -36,7 +60,8 @@ const HIDDNHILLS_TRACKS: Track[] = [
     appleAlbumId: "1833811649",
     appleTrackId: "1833811649",
     year: "2025",
-  },{
+  },
+  {
     id: "a-la-carte",
     title: "A La Carte Freestyle",
     artist: "HIDDNHILLS",
