@@ -147,7 +147,7 @@ export const LoopingMusicContent: React.FC = () => {
   ];
 
   // Latest release (newest)
-  const latestTrack = baseTracks.find((track) => track.id === "be-like-you")!;
+  const latestTrack = baseTracks.find((track) => track.id === "peter-pan")!;
 
   // Current featured track
   const currentFeaturedTrack = baseTracks.find(
@@ -157,7 +157,7 @@ export const LoopingMusicContent: React.FC = () => {
   // Dynamic track ordering based on showLatestFirst
   const tracks = useMemo(() => {
     const otherTracks = baseTracks.filter(
-      (track) => track.id !== "be-like-you" && track.id !== featuredTrack,
+      (track) => track.id !== "peter-pan" && track.id !== featuredTrack,
     );
 
     if (showLatestFirst) {
@@ -171,7 +171,7 @@ export const LoopingMusicContent: React.FC = () => {
   useEffect(() => {
     // Randomly set initial state once per session
     const randomFeaturedTrack =
-      Math.random() > 0.5 ? "nirvana" : "rain";
+      Math.random() > 0.5 ? "nirvana" : "peter-pan";
     const randomShowLatestFirst = Math.random() > 0.5;
 
     setFeaturedTrack(randomFeaturedTrack);
