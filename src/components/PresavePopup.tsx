@@ -97,7 +97,7 @@ export const PresavePopup: React.FC<PresavePopupProps> = ({
           type="button"
           aria-label="Listen to Peter Pan on all music platforms"
         >
-          Presave New Music
+          Listen Now
         </Button>
 
         <DialogClose asChild>
